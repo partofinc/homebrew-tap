@@ -3,22 +3,22 @@
 class Bleat < Formula
   desc "Host side of Bleat, the iPhone and iPad remote for Herdr"
   homepage "https://github.com/partofinc/bleat-apple"
-  version "1.0.0"
+  version "1.0.1"
   license "MIT"
 
   on_macos do
-    url "https://github.com/partofinc/bleat-apple/releases/download/cli-1.0.0/bleat-macos-universal.tar.gz"
-    sha256 "9434b4938a80110c38c16c251627301f4505d0222a3c06ea17070f2f1df1ecbb"
+    url "https://github.com/partofinc/bleat-apple/releases/download/cli-1.0.1/bleat-macos-universal.tar.gz"
+    sha256 "61ab3f734517cf649da08af611f662441449ee12c3c4a6ce7743754e1d936b28"
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/partofinc/bleat-apple/releases/download/cli-1.0.0/bleat-linux-aarch64.tar.gz"
-      sha256 "a3461bf13ec3b180164763e18dea6628a84226e529d06702a8a0e903401f72ab"
+      url "https://github.com/partofinc/bleat-apple/releases/download/cli-1.0.1/bleat-linux-aarch64.tar.gz"
+      sha256 "213b57a8a94e0ad50293afde3c408726f4eed24924ca3cd9c2d6dea0bb26acf5"
     end
     on_intel do
-      url "https://github.com/partofinc/bleat-apple/releases/download/cli-1.0.0/bleat-linux-x86_64.tar.gz"
-      sha256 "7784fe049e3a8c2daa94aba343b3faf95c3252dea92ce57f91b39cd5e921aa4b"
+      url "https://github.com/partofinc/bleat-apple/releases/download/cli-1.0.1/bleat-linux-x86_64.tar.gz"
+      sha256 "ff131be8d8d66b944a12091bf0bb2cf65d16974a417b4604530dd117071213ea"
     end
   end
 
